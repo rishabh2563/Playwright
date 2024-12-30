@@ -1,0 +1,22 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api":"npx playwright test --grep @API",
+    "POtest":"npx playwright test tests/E2EPO.spec.js",
+    "safari": "npx playwright test tests/E2EPO.spec.js --config playwright.config1.js --project=chrome",
+    "allure-report":"npx playwright test tests/E2EPO.spec.js --reporter=line,allure-playwright",
+    "allure-report-generate":"allure generate ./allure-results --clean",
+    "allure-report-open":"allure open ./allure-report",
+    "allure-test":"npm run allure-report; npm run allure-report-generate; npm run allure-report-open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.1",
+    "allure-playwright": "^2.0.0-beta.18"
+  }
+}

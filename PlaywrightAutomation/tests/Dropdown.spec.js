@@ -1,0 +1,23 @@
+const {test,expect}=require('@playwright/test');
+test('Launch directly with page',async({page})=>{
+    await page.goto('https://www.rahulshettyacademy.com/loginpagePractise/')
+    const username= page.locator('#username')
+    const signinbtn=page.locator('#signInBtn')
+    const radiobtn=page.locator('#usertype')
+    const popupokbtn =page.locator('#okayBtn')
+    const termsbtn=page.locator('#terms')
+    const blinkinglink=page.locator('a[href*="documents"]')
+    await username.type('rahulshetty')
+    await page.locator('#password').type('learning')
+    const dropdown= page.locator('select.form-control')
+    await dropdown.selectOption('consult')
+    await radiobtn.last().click() 
+    await popupokbtn.click()
+    await expect(radiobtn.last()).toBeChecked() 
+    await termsbtn.click() 
+    await expect(termsbtn).toBeChecked()
+    await termsbtn.uncheck()
+    expect(await termsbtn.isChecked()).toBeFalsy()
+    await expect(blinkinglink).toHaveAttribute('class','blinkingText')
+
+})

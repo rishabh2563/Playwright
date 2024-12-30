@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "E2EPO.spec.js",
+    "children" : [ {
+      "name" : "end To End Scenario",
+      "uid" : "79c757b72dd65393",
+      "parentUid" : "6961621ac037d39bd6b51a2addb2bf28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657016951276,
+        "stop" : 1657016964795,
+        "duration" : 13519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6961621ac037d39bd6b51a2addb2bf28"
+  } ]
+}

@@ -1,0 +1,851 @@
+{
+  "uid" : "79c757b72dd65393",
+  "name" : "end To End Scenario",
+  "fullName" : "end To End Scenario",
+  "historyId" : " E2EPO.spec.js end To End Scenario",
+  "time" : {
+    "start" : 1657016951276,
+    "stop" : 1657016964795,
+    "duration" : 13519
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1657016951276,
+        "stop" : 1657016952406,
+        "duration" : 1130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1657016952119,
+          "stop" : 1657016952406,
+          "duration" : 287
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "page.goto(https://rahulshettyacademy.com/client/)",
+      "time" : {
+        "start" : 1657016952409,
+        "stop" : 1657016953309,
+        "duration" : 900
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.type(#userEmail, rishabh.tripathi@fleekitsolutions.com)",
+      "time" : {
+        "start" : 1657016953311,
+        "stop" : 1657016953514,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.type(#userPassword, Test@321)",
+      "time" : {
+        "start" : 1657016953515,
+        "stop" : 1657016953571,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.click(#login)",
+      "time" : {
+        "start" : 1657016953575,
+        "stop" : 1657016953663,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "page.waitForLoadState",
+      "time" : {
+        "start" : 1657016953667,
+        "stop" : 1657016954593,
+        "duration" : 926
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "page.waitForSelector(section[id='sidebar'] p)",
+      "time" : {
+        "start" : 1657016954595,
+        "stop" : 1657016954648,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.allTextContents(div[class='card-body'] h5 b)",
+      "time" : {
+        "start" : 1657016954651,
+        "stop" : 1657016954661,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(.card-body)",
+      "time" : {
+        "start" : 1657016954665,
+        "stop" : 1657016954670,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(.card-body >> nth=0 >> b)",
+      "time" : {
+        "start" : 1657016954670,
+        "stop" : 1657016954704,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.click(.card-body >> nth=0 >> text= Add To Cart)",
+      "time" : {
+        "start" : 1657016954706,
+        "stop" : 1657016954773,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.dispatchEvent(button[routerlink='/dashboard/cart'])",
+      "time" : {
+        "start" : 1657016954775,
+        "stop" : 1657016954874,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.waitFor(div li >> nth=0)",
+      "time" : {
+        "start" : 1657016954875,
+        "stop" : 1657016954885,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.isVisible(h3:has-text('zara coat 3') >> nth=-1)",
+      "time" : {
+        "start" : 1657016954886,
+        "stop" : 1657016954902,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1657016954904,
+        "stop" : 1657016954904,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.dispatchEvent(text=Checkout)",
+      "time" : {
+        "start" : 1657016954905,
+        "stop" : 1657016954977,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.type([placeholder*='Country'], India)",
+      "time" : {
+        "start" : 1657016954979,
+        "stop" : 1657016963589,
+        "duration" : 8610
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.waitFor(.list-group)",
+      "time" : {
+        "start" : 1657016963593,
+        "stop" : 1657016963625,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(.list-group >> button)",
+      "time" : {
+        "start" : 1657016963626,
+        "stop" : 1657016963629,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(.list-group >> button >> nth=0)",
+      "time" : {
+        "start" : 1657016963629,
+        "stop" : 1657016963636,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(.list-group >> button >> nth=1)",
+      "time" : {
+        "start" : 1657016963637,
+        "stop" : 1657016963645,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.click(.list-group >> button >> nth=1)",
+      "time" : {
+        "start" : 1657016963646,
+        "stop" : 1657016963670,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1657016963672,
+        "stop" : 1657016963689,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.click(div.actions a)",
+      "time" : {
+        "start" : 1657016963691,
+        "stop" : 1657016963719,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1657016963721,
+        "stop" : 1657016963887,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(.em-spacer-1 .ng-star-inserted)",
+      "time" : {
+        "start" : 1657016963889,
+        "stop" : 1657016963917,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.click(button[routerlink*=\"myorders\"])",
+      "time" : {
+        "start" : 1657016963920,
+        "stop" : 1657016964044,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.waitFor(tbody)",
+      "time" : {
+        "start" : 1657016964045,
+        "stop" : 1657016964099,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964100,
+        "stop" : 1657016964104,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=0 >> th)",
+      "time" : {
+        "start" : 1657016964104,
+        "stop" : 1657016964130,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964132,
+        "stop" : 1657016964137,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=1 >> th)",
+      "time" : {
+        "start" : 1657016964138,
+        "stop" : 1657016964155,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964156,
+        "stop" : 1657016964162,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=2 >> th)",
+      "time" : {
+        "start" : 1657016964163,
+        "stop" : 1657016964175,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964176,
+        "stop" : 1657016964178,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=3 >> th)",
+      "time" : {
+        "start" : 1657016964179,
+        "stop" : 1657016964189,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964189,
+        "stop" : 1657016964191,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=4 >> th)",
+      "time" : {
+        "start" : 1657016964192,
+        "stop" : 1657016964202,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964203,
+        "stop" : 1657016964204,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=5 >> th)",
+      "time" : {
+        "start" : 1657016964206,
+        "stop" : 1657016964212,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.count(tbody>tr)",
+      "time" : {
+        "start" : 1657016964213,
+        "stop" : 1657016964214,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(tbody>tr >> nth=6 >> th)",
+      "time" : {
+        "start" : 1657016964215,
+        "stop" : 1657016964220,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.click(tbody>tr >> nth=6 >> button >> nth=0)",
+      "time" : {
+        "start" : 1657016964221,
+        "stop" : 1657016964264,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "locator.textContent(div.col-text.-main)",
+      "time" : {
+        "start" : 1657016964265,
+        "stop" : 1657016964306,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1657016964307,
+        "stop" : 1657016964307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1657016964307,
+        "stop" : 1657016964782,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1657016964734,
+          "stop" : 1657016964778,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6c1fe42be4393b92",
+      "name" : "screenshot",
+      "source" : "6c1fe42be4393b92.png",
+      "type" : "image/png",
+      "size" : 118660
+    }, {
+      "uid" : "6e1c8ef155333ac5",
+      "name" : "stdout",
+      "source" : "6e1c8ef155333ac5.txt",
+      "type" : "text/plain",
+      "size" : 53
+    }, {
+      "uid" : "3962356901e0e290",
+      "name" : "stdout",
+      "source" : "3962356901e0e290.txt",
+      "type" : "text/plain",
+      "size" : 31
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 48,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "E2EPO.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54550b8f84d000a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657007552842,
+        "stop" : 1657007568783,
+        "duration" : 15941
+      }
+    }, {
+      "uid" : "f50660b522fc1fc8",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: Executable doesn't exist at C:\\Users\\Fleek\\AppData\\Local\\ms-playwright\\chromium-1012\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1657007472342,
+        "stop" : 1657007472367,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "833c4e7611e1c02e",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: Executable doesn't exist at C:\\Users\\Fleek\\AppData\\Local\\ms-playwright\\chromium-1012\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1657007471594,
+        "stop" : 1657007471648,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "382321bb835d6661",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: Executable doesn't exist at C:\\Users\\Fleek\\AppData\\Local\\ms-playwright\\chromium-1012\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1657005769232,
+        "stop" : 1657005769257,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "6929e971fbd8f81a",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: Executable doesn't exist at C:\\Users\\Fleek\\AppData\\Local\\ms-playwright\\chromium-1012\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1657005768516,
+        "stop" : 1657005768533,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "db7def9b3b586c1c",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: Executable doesn't exist at C:\\Users\\Fleek\\AppData\\Local\\ms-playwright\\chromium-1012\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1657005702117,
+        "stop" : 1657005702141,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "9ddfd90c5d1901fb",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: Executable doesn't exist at C:\\Users\\Fleek\\AppData\\Local\\ms-playwright\\chromium-1012\\chrome-win\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1657005701516,
+        "stop" : 1657005701525,
+        "duration" : 9
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79c757b72dd65393.json",
+  "parameterValues" : [ ]
+}
